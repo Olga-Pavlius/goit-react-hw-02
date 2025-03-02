@@ -1,0 +1,36 @@
+
+  .options-container {
+    display: flex;
+    gap: 20px;
+  }
+  .good {
+     background-color: rgba(112, 110, 110, 0.419); 
+     margin-right: 5px; 
+     border-radius: 5px;
+     border-color: rgba(33, 32, 32, 0.419);
+     height: 30px;
+    }
+  .neutral {
+    background-color: rgba(112, 110, 110, 0.419); 
+    margin-right: 5px; 
+    border-radius: 5px;
+    border-color: rgba(33, 32, 32, 0.419);
+    height: 30px;
+   }
+  .bad {
+    background-color: rgba(112, 110, 110, 0.419); 
+    margin-right: 5px; 
+    border-radius: 5px;
+    border-color: rgba(33, 32, 32, 0.419);
+    height: 30px;
+   }
+  .reset {
+    background-color: rgba(112, 110, 110, 0.419); 
+    margin-right: 5px; 
+    border-radius: 5px;
+    border-color: rgba(33, 32, 32, 0.419);
+    height: 30px;
+   }
+  
+
+  
