@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Feedback from "./components/Feedback/Feedback.jsx";
 import Options from "./components/Options/Options.jsx";
 import Notification from "./components/Notification/Notification.jsx";
+import Description from "./components/Description/Description.jsx";
 
 
 
@@ -30,7 +31,8 @@ const App = () => {
   return (
     <div className="appContainer">
       <h1 className="title">Sip Happens Café</h1>
-      <p className="description">Please leave your feedback about our service by selecting one of the options below.</p>
+      
+      <Description />
       <Options updateFeedback={updateFeedback} resetFeedback={resetFeedback} totalFeedback={totalFeedback} />
       {totalFeedback > 0 ? (
         <Feedback feedback={feedback} totalFeedback={totalFeedback} positiveFeedback={positiveFeedback} />
