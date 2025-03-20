@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="appContainer">
-      <h1 className="title">Sip Happens Café</h1>
+      
       
       <Description />
       <Options updateFeedback={updateFeedback} resetFeedback={resetFeedback} totalFeedback={totalFeedback} />

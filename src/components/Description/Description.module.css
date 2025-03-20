@@ -8,3 +8,7 @@
     color: #555;
   }
   
+  .title {
+    display: flex;
+    text-align: left;
+  }
